@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+img {
+  object-fit: contain;
+}
+nav {
+  padding: 10px 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.list {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+}
+.list__item {
+}
+.list__item a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: var(--Gray-600, #757575);
+
+  /* Button Bold */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.54px;
+}
+.list__item .home {
+  color: var(--Gray-900, #212121);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.54px;
+}
+.list__item button {
+  color: var(--Theme-White, #fff);
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.54px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  background: var(--Theme-Primay, #005dff);
+  border: none;
+}
+.services {
+  margin: 50px 100px;
+  text-align: center;
+  font-family: PT Serif;
+  max-width: 1578px;
+  margin: 0 auto;
+}
+.services h1 {
+  color: var(--Gray-900, #212121);
+  text-align: center;
+
+  /* Header/3 Bold */
+  font-family: PT Serif;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 68.4px */
+}
+p {
+  color: var(--Gray-600, #757575);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.services__btn {
+  padding: 5px 22px;
+  gap: 10px;
+  color: var(--Theme-White, #fff);
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 100%; /* 18px */
+  border-radius: 80px;
+  background: var(--Theme-Warning, #ff6a00);
+
+  border: none;
+}
+.services__btn img {
+  margin: 10px 5px;
+  padding-bottom: 5px;
+}
+.imgs {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.imgs img {
+  margin-left: 25px;
+  width: 349px;
+  height: 349px;
+  border-radius: 16.324px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
